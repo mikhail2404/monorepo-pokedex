@@ -1,0 +1,17 @@
+.header{
+    height: 10vh;
+    background-color: #0F172A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.header-title{
+    font-size: 3.75rem;
+    text-transform: capitalize;
+    color: #F5BB24;
+}

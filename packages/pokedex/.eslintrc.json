@@ -15,7 +15,7 @@
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
-    "plugin:storybook/recommended"
+    "next/core-web-vitals"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -31,8 +31,7 @@
     "simple-import-sort",
     "react",
     "prettier",
-    "@typescript-eslint",
-    "eslint-plugin-storybook"
+    "@typescript-eslint"
   ],
   "rules": {
     // Disables enforcing of single quotes and requires semicolons
@@ -145,6 +144,9 @@
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking"
       ],
+      "rules": {
+        "@typescript-eslint/no-unsafe-member-access": "off"
+      },
       "parserOptions": {
         "project": ["./tsconfig.json"]
       }

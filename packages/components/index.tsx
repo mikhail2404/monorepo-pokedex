@@ -1,4 +1,4 @@
-import Header from "./stories/Header";
-import CustomDataGrid from "./stories/CustomDataGrid";
+import Header from "./src/stories/Header";
+import CustomDataGrid from "./src/stories/CustomDataGrid";
 
 export { Header, CustomDataGrid }
