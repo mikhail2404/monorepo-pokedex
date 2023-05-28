@@ -4,7 +4,7 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/preset-create-react-pages",
+    "@storybook/preset-create-react-app",
     "@storybook/addon-interactions",
   ],
   framework: {
@@ -14,6 +14,5 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
-  staticDirs: ["../public"],
 };
 export default config;

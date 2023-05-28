@@ -30,6 +30,9 @@ const StyledDataGrid = styled(DataGrid)(() => ({
   "& .MuiTablePagination-selectLabel": {
     fontSize: "inherit",
   },
+  "& .MuiDataGrid-row": {
+    cursor: "pointer",
+  },
 }));
 
 interface CustomDataGridProps {

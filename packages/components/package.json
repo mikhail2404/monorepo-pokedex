@@ -4,9 +4,6 @@
   "private": true,
   "main": "./index.tsx",
   "dependencies": {
-    "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.2",
     "@mui/x-data-grid": "^6.5.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,10 +19,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
     "lint": "eslint ./src --ext .ts,.tsx",
-    "lintfix": "eslint --fix ./src --ext .ts,.tsx"
+    "lintfix": "eslint --fix ./src --ext .ts,.tsx",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,15 +48,11 @@
     "@storybook/addon-interactions": "^7.0.18",
     "@storybook/addon-links": "^7.0.18",
     "@storybook/blocks": "^7.0.18",
-    "@storybook/preset-create-react-app": "^7.0.12",
+    "@storybook/preset-create-react-app": "^7.0.18",
     "@storybook/react": "^7.0.18",
     "@storybook/react-webpack5": "^7.0.18",
     "@storybook/testing-library": "^0.0.14-next.2",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "eslint-plugin-storybook": "^0.6.12",
-    "prop-types": "^15.8.1",
-    "storybook": "^7.0.18",
-    "webpack": "^5.84.1",
     "eslint": "^8.41.0",
     "eslint-config-next": "^13.4.4",
     "eslint-config-prettier": "^8.8.0",
@@ -67,6 +60,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^2.8.8"
+    "eslint-plugin-storybook": "^0.6.12",
+    "prettier": "^2.8.8",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.18",
+    "webpack": "^5.84.1"
   }
 }
